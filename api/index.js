@@ -11,7 +11,7 @@ server.use(middlewares);
 
 server.use(
   jsonServer.rewriter({
-    "/api/*": "/$1", // rewrites /api/articles to /articles
+    "/api/*": "/$1",
   })
 );
 
